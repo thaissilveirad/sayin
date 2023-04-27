@@ -1,0 +1,24 @@
+{
+    "name": "thaissilveirad/sayin-esfirraria",
+    "description": "Estrutura básica de uma aplicação MVC",
+    "minimum-stability": "stable",
+    "authors": [
+      {
+        "name": "Thais Silveira",
+        "email": "thaisdutra2009@gmail.com",
+        "homepage": "https://www.ifsul.edu.br",
+        "role": "Developer"
+      }
+    ],
+    "config": {
+      "vendor-dir": "vendor"
+    },
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/Boot/Config.php"
+      ]
+    }
+  }
