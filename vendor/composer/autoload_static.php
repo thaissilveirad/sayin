@@ -8,6 +8,7 @@ class ComposerStaticInitd5f3f2034e813f03c9aba707fcdfc720
 {
     public static $files = array (
         '2f6b8310f90667bf685db32cf024c388' => __DIR__ . '/../..' . '/source/Boot/Config.php',
+        '4ce4b94cea0c51b135338968251dea2e' => __DIR__ . '/../..' . '/source/Boot/Helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -15,12 +16,28 @@ class ComposerStaticInitd5f3f2034e813f03c9aba707fcdfc720
         array (
             'Source\\' => 7,
         ),
+        'L' => 
+        array (
+            'League\\Plates\\' => 14,
+        ),
+        'C' => 
+        array (
+            'CoffeeCode\\Router\\' => 18,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Source\\' => 
         array (
             0 => __DIR__ . '/../..' . '/source',
+        ),
+        'League\\Plates\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/plates/src',
+        ),
+        'CoffeeCode\\Router\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coffeecode/router/src',
         ),
     );
 

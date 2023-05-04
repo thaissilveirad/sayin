@@ -2,16 +2,26 @@
 
 namespace Source\App;
 
+use League\Plates\Engine;
+
 class Web
 {
+
+    private $view;
+
+    public function __construct () 
+    {
+        $this->view = new Engine( __DIR__ . "/../../themes/web", "php");
+    }
+
     public function home()
     {
-        echo "Olá, Mundo! Home";
+        echo $this->view->render("home");
     }
 
     public function about()
     {
-        echo "Olá, Mundo! Sobre";
+        echo $this->view->render("about");
     }
 
     public function location()
@@ -21,6 +31,14 @@ class Web
 
     public function blog (){
         echo "esse é o meu blog bonitinho...";
+    }
+
+    public function contact () {
+        echo "Olá, esse é meu contato!";
+    }
+
+    public function profile () {
+        echo "Olá, esse é meu perfil!";
     }
 
 }
