@@ -16,7 +16,10 @@ class Web
 
     public function home()
     {
-        echo $this->view->render("home");
+        echo $this->view->render("home", [
+            "name" => "Thaís",
+            "age" => 16
+        ]);
     }
 
     public function about()
