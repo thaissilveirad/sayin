@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="<?= url("/home")?>">Início</a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?= url("/produtos") ?>">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?= url("/produtos"); ?>">Produtos</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= url("/sobre"); ?>">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= url("/menu")?>">Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= url("/login")?>">Entrar</a></li>
@@ -39,6 +39,12 @@
             </div>
         </div>
     </nav>
+
+
+
+    <?php
+       echo $this->section("content");
+    ?>
 
     <!-- Cabeçalho-->
     <!-- <header class="masthead">
@@ -50,9 +56,7 @@
     </header> -->
 
 
-    <?php
-       echo $this->section("content");
-    ?>
+   
 
 
 

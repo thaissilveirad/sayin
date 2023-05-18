@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sayin - Menu</title>
   <script type="text/javascript" src="menu.js" async></script>
-  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="/assets/css/menu.css">
 </head>
 
 <body>

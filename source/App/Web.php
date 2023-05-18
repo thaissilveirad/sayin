@@ -14,34 +14,32 @@ class Web
         $this->view = new Engine( __DIR__ . "/../../themes/web", "php");
     }
 
-    public function home()
-    {
-        echo $this->view->render("home", [
-            "name" => "Thaís",
-            "age" => 16
-        ]);
-    }
-
     public function about()
     {
         echo $this->view->render("about");
     }
 
-    public function location()
+    public function home()
     {
-        echo "Essa é a minha localização!";
+        echo $this->view->render("home");
     }
 
-    public function blog (){
-        echo "esse é o meu blog bonitinho...";
+    public function login()
+    {
+        echo $this->view->render("login");
     }
 
-    public function contact () {
-        echo "Olá, esse é meu contato!";
+    public function menu()
+    {
+        echo $this->view->render("menu");
     }
 
-    public function profile () {
-        echo "Olá, esse é meu perfil!";
+    public function products (){
+        echo $this->view->render("products");
+    }
+
+    public function register () {
+        echo $this->view->render("register");
     }
 
 }
