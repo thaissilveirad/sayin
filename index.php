@@ -19,6 +19,8 @@ $route->get("/menu","Web:menu");
 $route->get("/entrar", "Web:login");
 $route->get("/cadastro", "Web:register");
 $route->get("/inicio", "Web:home");
+$route->get("/faq", "Web:faq");
+
 
 $route->group("/app");
 $route->get("/", "App:home");

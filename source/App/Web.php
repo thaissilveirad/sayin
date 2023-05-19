@@ -3,6 +3,7 @@
 namespace Source\App;
 
 use League\Plates\Engine;
+use Source\Models\Faq;
 
 class Web
 {
@@ -42,4 +43,14 @@ class Web
         echo $this->view->render("register");
     }
 
+    public function faq ()
+    {
+        $faqs = new Faq();
+        //var_dump($faqs->selectAll());
+
+        echo $this->view->render("faq",[
+            "faqs" => $faqs->selectAll(),
+            "name" => "Thais"
+        ]);
+    }
 }

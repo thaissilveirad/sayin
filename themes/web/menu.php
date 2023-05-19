@@ -2,19 +2,7 @@
     $this->layout("_theme");
 ?>
 
-<!DOCTYPE html>
-<html lang="pt-br">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sayin - Menu</title>
-  <script type="text/javascript" src="menu.js" async></script>
-  <link rel="stylesheet" href="/assets/css/menu.css">
-</head>
-
-<body>
   <div class="content">
     <div class="nav" id="nav">
       <input type="search" id="search" placeholder="Pesquisar">
@@ -171,6 +159,3 @@
   
 
   </div>
-</body>
-
-</html>
