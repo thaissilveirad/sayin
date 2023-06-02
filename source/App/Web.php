@@ -53,4 +53,9 @@ class Web
             "name" => "Thais"
         ]);
     }
+
+    public function dishes () {
+        echo $this->view->render("dishes");
+    }
+
 }

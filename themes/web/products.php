@@ -3,7 +3,7 @@
 ?>
 
     <!-- Produtos-->
-    <section class="page-section" id="produtos">
+    <!-- <section class="page-section" id="produtos">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Produtos</h2>
@@ -104,4 +104,6 @@
 
 
         </div>
-    </section>
+    <!-- </section> --> -->
+
+  

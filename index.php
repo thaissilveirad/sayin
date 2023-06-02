@@ -20,6 +20,7 @@ $route->get("/entrar", "Web:login");
 $route->get("/cadastro", "Web:register");
 $route->get("/inicio", "Web:home");
 $route->get("/faq", "Web:faq");
+$route->get("/pratos", "Web:dishes");
 
 
 $route->group("/app");
